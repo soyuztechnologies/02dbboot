@@ -1,0 +1,8 @@
+---
+applications:
+- name: dbboot
+  random-route: true
+  memory: 1024M
+  path: /target/02dbboot-0.0.1-SNAPSHOT.war
+  buildpacks:
+  - java_buildpack
